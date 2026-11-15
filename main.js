@@ -3,8 +3,8 @@
 
 var emailContactus ="yashvardhanyadav1709@gmail.com"; // Set your actual email address here
 
-const myapiCoolersAll    ="https://paanipahraapi.onrender.com/api/coolers"
-const myapiCoolersSingle ="https://paanipahraapi.onrender.com/api/coolers/"
+const myapiCoolersAll    ="https://panipahraapi.onrender.com/api/coolers"
+const myapiCoolersSingle ="https://panipahraapi.onrender.com/api/coolers/"
 
 var coolerInfo_Local_Test = {
     location01A: { title: "Location-01 : Left Wing, G-Floor", 
