@@ -169,6 +169,7 @@ body::before {
 .header.temp-cold { background: linear-gradient(135deg, var(--temp-cold) 0%, #0891b2 100%); }
 
 .header {
+    background: linear-gradient(135deg, var(--primary-orange) 0%, var(--primary-orange-dark) 100%);
     color: #fff;
     text-align: center;
     font-size: var(--font-size-2xl);
