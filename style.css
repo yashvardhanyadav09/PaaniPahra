@@ -196,18 +196,23 @@ body::before {
 }
 
 /* Ultra-modern titles */
+/* Section titles: softer than the top headers */
 .main-title, .sub-title {
     font-weight: 800;
-    background: linear-gradient(135deg, var(--primary-orange) 0%, var(--primary-orange-dark) 100%);
-    color: #fff;
-    text-shadow: 0 2px 10px rgba(0,0,0,0.25);
+    background: rgba(249, 115, 22, 0.08);
+    color: var(--primary-orange-dark);
+    border-left: 8px solid var(--primary-orange);
     margin: 0 0 2rem 0;
-    padding: 1.5rem 3rem;
-    text-align: center;
-    border-radius: 16px;
-    box-shadow: var(--shadow-glow);
+    padding: 1.1rem 2rem;
+    text-align: left;
+    border-radius: 12px;
     position: relative;
     font-size: var(--font-size-xl);
+}
+
+.sub-title {
+    font-size: var(--font-size-lg);
+    margin-top: 1rem;
 }
 
 /* Smart Dashboard Table with API Status */
